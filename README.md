@@ -24,13 +24,8 @@ In **Settings → Pages → Custom domain**, enter `www.updownrecordings.com`. A
 
 If the domain is registered through Wix, you'll need to change those DNS records in Wix, or transfer the domain out of Wix.
 
-## Contact form
-GitHub Pages can't process form submissions. Out of the box, **Submit** opens the visitor's email app with a message to swin@rainmakerartists.com already filled in.
-
-To have messages emailed to you automatically instead, create a free form at a service such as Formspree and paste its endpoint into `FORM_ENDPOINT` at the top of the contact-form section in `script.js`.
-
 ## Files
 - `index.html`: page content
 - `styles.css`: design (colors, fonts, layout, mobile)
-- `script.js`: mobile menu, footer year and contact form
+- `script.js`: mobile menu and footer year
 - `download-assets.sh`: pulls the media from Wix
