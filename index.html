@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HOME | Up Down Records</title>
+<meta name="description" content="Up/Down Records is an independent record label founded by Justin Furstenfeld of Blue October.">
+<link rel="icon" href="assets/logo-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Nunito+Sans:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#home" class="brand">
+      <img src="assets/logo-icon.png" alt="Up/Down Records logo">
+      <span><span class="red">UP</span>/<span class="red">DOWN</span> RECORDS</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    <nav class="site-nav">
+      <a href="#home">HOME</a>
+      <a href="#releases">RELEASES</a>
+      <a href="#about">ABOUT</a>
+      <a href="#contact">CONTACT</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <video class="hero-video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-content">
+      <img class="hero-x" src="assets/logo-x.png" alt="">
+      <h1 class="hero-title">
+        <span class="hero-updown"><span class="red">UP</span>/<span class="red">DOWN</span></span>
+        <span class="hero-records">RECORDS</span>
+      </h1>
+    </div>
+  </section>
+
+  <!-- RELEASES -->
+  <section id="releases" class="releases">
+    <div class="notch notch-white"></div>
+    <h2 class="section-title spaced">RELEASES</h2>
+    <div class="release-grid">
+      <img src="assets/release-01.jpg" alt="Release cover" loading="lazy">
+      <img src="assets/release-02.jpg" alt="Release cover" loading="lazy">
+      <img src="assets/release-03.jpg" alt="Release cover" loading="lazy">
+      <img src="assets/release-04.jpeg" alt="Release cover" loading="lazy">
+      <img src="assets/release-05.jpeg" alt="Release cover" loading="lazy">
+      <img src="assets/release-06.jpeg" alt="Release cover" loading="lazy">
+      <img src="assets/release-07.jpg" alt="Release cover" loading="lazy">
+      <img src="assets/release-08.jpeg" alt="Release cover" loading="lazy">
+      <img src="assets/release-09.jpg" alt="Release cover" loading="lazy">
+      <img src="assets/release-10.jpg" alt="Release cover" loading="lazy">
+      <img src="assets/release-11.jpg" alt="Release cover" loading="lazy">
+      <img src="assets/release-12.jpg" alt="Release cover" loading="lazy">
+      <img src="assets/release-13.jpeg" alt="Release cover" loading="lazy">
+      <img src="assets/release-14.jpeg" alt="Release cover" loading="lazy">
+      <img src="assets/release-15.jpeg" alt="Release cover" loading="lazy">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="notch notch-black"></div>
+    <div class="about-inner">
+      <img class="about-photo" src="assets/about-justin.jpg" alt="Justin Furstenfeld">
+      <div class="about-text">
+        <h2 class="section-title spaced dark">ABOUT</h2>
+        <p>Up/Down Records is an independent record label founded by the multi-talented Justin Furstenfeld, renowned as the lead singer and creative force behind the iconic band Blue October.</p>
+        <p>Established in 2010, with longtime managers Paul Nugent and Swin Swinford, Up/Down Records has been a labor of love, dedicated to nurturing and promoting all music from Blue October and Justin Furstenfeld.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="notch notch-white"></div>
+    <h2 class="section-title">CONTACT</h2>
+    <div class="contact-inner">
+      <div class="contact-form-wrap">
+        <h3>Looking to get in touch with us?</h3>
+        <p class="lead">Fill out the contact form &amp; we’ll get get back to you!</p>
+        <form id="contact-form" class="contact-form" data-email="swin@rainmakerartists.com">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" placeholder="Type your message here..."></textarea>
+          <button type="submit">Submit</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+      <div class="contact-info">
+        <img src="assets/logo-x.png" alt="" class="contact-x">
+        <p>Swin Swinford<br><a href="mailto:swin@rainmakerartists.com">swin@rainmakerartists.com</a></p>
+        <p>Up/Down Records, LLC<br>16027 Ventura Boulevard, Ste 301<br>Encino, California 91436</p>
+        <p><a href="http://www.blueoctober.com/" target="_blank" rel="noopener">www.blueoctober.com</a></p>
+        <p><a href="https://getbackup.tv/" target="_blank" rel="noopener">www.getbackup.tv</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© <span id="year">2026</span> Up Down Records, LLC</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
